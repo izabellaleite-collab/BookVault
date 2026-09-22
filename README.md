@@ -1,61 +1,82 @@
 # BookVault
 
-## Sobre o Projeto
+Sistema de gerenciamento de biblioteca desenvolvido em **C**, criado para aplicar conceitos fundamentais de programação, estruturas de dados e persistência de informações.
 
-O **BookVault** é um sistema de gerenciamento de biblioteca desenvolvido em linguagem **C**, projetado para realizar o cadastro, consulta, atualização e remoção de livros.
-
-O projeto foi criado com o objetivo de aplicar conceitos fundamentais de programação, organização de dados e persistência de informações, simulando funcionalidades presentes em sistemas de bibliotecas e acervos digitais.
+O projeto permite realizar operações de cadastro, consulta, atualização e remoção de livros, simulando funcionalidades presentes em sistemas de bibliotecas e acervos digitais.
 
 ---
 
 ## Funcionalidades
 
 - Cadastro de livros
-- Consulta de livros cadastrados
+- Consulta de registros cadastrados
 - Atualização de informações
-- Remoção de registros
+- Remoção de livros
 - Busca por título, autor ou categoria
 - Controle de disponibilidade dos exemplares
-- Armazenamento e recuperação de dados
+- Armazenamento e recuperação de dados em arquivo
+- Navegação por menu interativo no terminal
 
 ---
 
 ## Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| C | Linguagem principal do projeto |
-| GCC | Compilador utilizado para execução |
+| Tecnologia | Finalidade |
+|------------|------------|
+| C | Desenvolvimento da aplicação |
+| GCC | Compilação do projeto |
 | Git | Controle de versão |
-| GitHub | Hospedagem e versionamento do código |
+| GitHub | Hospedagem do código |
 
 ---
 
 ## Conceitos Aplicados
 
+Durante o desenvolvimento deste projeto foram utilizados conceitos importantes da linguagem C e da construção de software:
+
 - Programação Estruturada
 - Manipulação de Arquivos
 - Structs
 - Ponteiros
-- Funções
-- Vetores e Matrizes
+- Modularização de Código
 - CRUD (Create, Read, Update e Delete)
 - Validação de Dados
-- Modularização de Código
+- Funções e Procedimentos
+- Organização de Dados em Memória
+- Persistência de Dados
 
 ---
 
 ## Estrutura do Projeto
 
-- Interface de interação via terminal
-- Módulo de gerenciamento de livros
-- Módulo de busca e consulta
-- Módulo de persistência de dados
-- Arquivos de cabeçalho (`.h`) e implementação (`.c`)
-- Organização modular para facilitar manutenção e escalabilidade
+```text
+BookVault/
+│
+├── src/
+│   ├── main.c
+│   ├── livros.c
+│   └── operacoes.c
+│
+├── include/
+│   ├── livros.h
+│   └── operacoes.h
+│
+├── data/
+│   └── livros.dat
+│
+└── README.md
+```
 
 ---
 
-## Objetivo
+## Objetivo do Projeto
 
-Desenvolver uma aplicação prática para gerenciamento de livros, aplicando boas práticas de programação em C e fortalecendo conhecimentos em estruturas de dados, manipulação de arquivos e desenvolvimento de software.
+O BookVault foi desenvolvido com fins educacionais e de portfólio, visando fortalecer conhecimentos em:
+
+- Linguagem C
+- Manipulação de arquivos
+- Estruturas de dados
+- Organização de projetos
+- Boas práticas de desenvolvimento
+
+---
